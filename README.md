@@ -42,6 +42,26 @@ of striatum boundaries. Figure 5 shows en example of striatum cropping.
 ![Screen Shot 2022-06-01 at 7 00 04 PM](https://user-images.githubusercontent.com/19292138/171459973-750674b2-97c4-4e1f-9be9-0c7dd5ceea77.png)
 
 
+![Screen Shot 2022-06-01 at 7 02 21 PM](https://user-images.githubusercontent.com/19292138/171460351-ac6e67df-8271-446e-93d6-1b2aa9e4bd8e.png)
+
+### Tilted brain images
+
+Often times the brain section images are tilted, depending on how the sections are mounted on the objective slide and how the sections 
+are imaged (Figure 1). In order to obtain accurate detection of striatum boundary, the axis of symmetry of brain images has to form a 
+90-degree angle with the horizontal line of image boundary. Thus, tilted images need to be rotated so that the desired 90-degree angle 
+is formed. A separate Python module named rotation.py has been developed to overcome the problem of tilted images. By feeding a tilted 
+image into the module, the image is shown to the user along with a vertical line representing the ideal axis of symmetry. The user can 
+then mark three points on the image to determine the degree to which the image is tilted.
+
+![Screen Shot 2022-06-01 at 7 04 01 PM](https://user-images.githubusercontent.com/19292138/171460761-3357559f-6c15-4069-a966-aaa1294ebb62.png)
+
+![Screen Shot 2022-06-01 at 7 05 25 PM](https://user-images.githubusercontent.com/19292138/171460967-bade29be-258b-49e1-b7b5-e14b9b844ad0.png)
+![Screen Shot 2022-06-01 at 7 05 54 PM](https://user-images.githubusercontent.com/19292138/171460991-5fe37db3-44b8-46dd-b4b2-5ba57872c090.png)
+
+
+
+
+
 
 
 
