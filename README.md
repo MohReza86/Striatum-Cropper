@@ -13,6 +13,13 @@ They used three rostral divisions as follows: rostral (Bregma +1.345 mm), interm
 Motivated by the findings of this study, the current project offers an algorithm for automated quantification of functional 
 domains in rodent striatum.
 
+## Maximum intensity projection 
+
+3D Z-stacks of the striatum are initially converted the to 2D maximal intensity projection (MIP). MIP creates an output image 
+each of whose pixels contains the maximum value over all images in the stack at the particular pixel location (max_inten_proj.py). 
+Accordingly, at each pixel position, the pixel with the maximum intensity is found, which become the intensity of that pixel value 
+in the projected image. This results in a 2D projection of the original 3D Z-stacks.
+
 ## Automated striatum cropping
 
 Following Hintiryan et al.’s paper, coronal brain section images containing three striatal divisions are selected: 
