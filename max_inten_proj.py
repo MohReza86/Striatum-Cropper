@@ -14,7 +14,7 @@ output_path = ''  # please specify the output folder
 output_format = '.tiff'  # output format of the MIP images
 
 
-def max_inten_proj():
+def max_inten_proj(input_path):
 
     for image in os.listdir(input_path):
         if 'czi' in str(image): # reads only czi format images
@@ -36,4 +36,4 @@ def max_inten_proj():
 
 
 if __name__ == "__main__":
-    max_inten_proj()
+    max_inten_proj(input_path)
